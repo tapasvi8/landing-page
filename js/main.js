@@ -9,3 +9,4 @@ if (btn && nav) {
     btn.setAttribute("aria-expanded", String(isOpen));
   });
 }
+document.getElementById("year")?.append(new Date().getFullYear());
